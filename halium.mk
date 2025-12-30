@@ -349,6 +349,7 @@ PRODUCT_PACKAGES += \
     libbiometry_fp_api \
     libcamera_compat_layer \
     libdroidmedia \
+    libminisf \
     libhwc2_compat_layer \
     libui_compat_layer \
     libmedia_compat_layer \
@@ -357,3 +358,10 @@ PRODUCT_PACKAGES += \
     libui_compat_layer \
     micshm.sh \
     minimediaservice \
+    minisfservice
+
+# Droidmedia init scripts
+PRODUCT_COPY_FILES += \
+    vendor/halium/droidmedia/init/minimediaservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/minimediaservice.rc \
+    vendor/halium/droidmedia/init/minisfservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/minisfservice.rc
+
