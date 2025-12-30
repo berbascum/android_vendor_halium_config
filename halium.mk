@@ -362,6 +362,6 @@ PRODUCT_PACKAGES += \
 
 # Droidmedia init scripts
 PRODUCT_COPY_FILES += \
-    vendor/halium/droidmedia/init/minimediaservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/minimediaservice.rc \
-    vendor/halium/droidmedia/init/minisfservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/minisfservice.rc
+    vendor/halium/droidmedia/init/minimediaservice.rc:$(TARGET_COPY_OUT_SYSTEM)/vendor/etc/init/minimediaservice.rc \
+    vendor/halium/droidmedia/init/minisfservice.rc:$(TARGET_COPY_OUT_SYSTEM)/vendor/etc/init/minisfservice.rc
 
