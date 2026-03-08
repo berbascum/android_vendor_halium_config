@@ -349,6 +349,7 @@ PRODUCT_PACKAGES += \
     libbiometry_fp_api \
     libcamera_compat_layer \
     libdroidmedia \
+    libminisf \
     libhwc2_compat_layer \
     libui_compat_layer \
     libmedia_compat_layer \
@@ -357,3 +358,4 @@ PRODUCT_PACKAGES += \
     libui_compat_layer \
     micshm.sh \
     minimediaservice \
+    minisfservice
